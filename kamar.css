@@ -1,0 +1,88 @@
+#kamar {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+#kamar h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#kamar p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Gaya untuk card kamar */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Gaya untuk tombol Pesan Sekarang */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk gambar kamar */
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Gaya untuk container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+}
